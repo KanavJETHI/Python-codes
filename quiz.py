@@ -38,7 +38,7 @@ else:
     
     
     answer = input("What arithmetic operator cannot be used with strings in python? ")
-if answer.lower() == "preferred installer program":
+if answer.lower() == "-":
     print('Correct!')
     score += 1
 else:
