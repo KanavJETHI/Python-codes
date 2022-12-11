@@ -9,7 +9,7 @@ print("ok! Let's start the quiz :)")
 score = 0
 
 answer = input("Who developed python programing language? ")
-if answer.lower() == "Guido van Rossum":
+if answer.lower() == "guido van rossum":
     print('Correct!')
     score += 1
 else:
@@ -37,8 +37,8 @@ else:
     print("Incorrect!")
     
     
-    answer = input("What arithmetic operator cannot be used with strings in python? ")
-if answer.lower() == "-":
+    answer = input("In which year Python was developed? ")
+if answer.lower() == "1991":
     print('Correct!')
     score += 1
 else:
